@@ -1,0 +1,4 @@
+import re
+sentence = "A, very very; irregular_sentence"
+a=re.sub('[\W_]',' ',sentence)
+print(a)
